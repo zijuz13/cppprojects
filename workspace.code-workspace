@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"algorithm": "cpp",
+			"__config": "cpp",
+			"__node_handle": "cpp",
+			"vector": "cpp",
+			"ostream": "cpp"
+		}
+	}
+}
