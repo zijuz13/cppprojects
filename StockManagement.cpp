@@ -140,13 +140,13 @@ void modifyProduct(){
     cin>>price;
     cout<<"请输入商品数量"<<endl;
     cin>>amount;
-    Product Product(id,name,producer,date,price,amount);
+    Product product(id,name,producer,date,price,amount);
     for(vector<Product>::iterator i=market.begin();i!=market.end();i++){
         if(id==(i->getId())){
             market.erase(i);
         }
     }
-    market.push_back(Product);
+    market.push_back(product);
 }
 void outputProduct(){
     if(market.size()==0){
